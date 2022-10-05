@@ -1,0 +1,54 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<!-- conf.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Parametri">
+    <xs:complexType>
+    <xs:sequence>
+      <xs:element ref="parametriStilistici"/>
+      <xs:element ref="infoDataBase"/>
+      <xs:element ref="infoServerLog"/>  
+    </xs:sequence> 
+    </xs:complexType>
+  </xs:element>
+
+
+  <xs:element name="parametriStilistici">
+    <xs:complexType>
+    <xs:sequence>
+      <xs:element name="fornitura">
+        <xs:complexType>
+        <xs:sequence>
+          <xs:element name="String" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+        </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="font" type="xs:string"/>
+      <xs:element name="dimensioneTesto" type="xs:integer"/>
+      <xs:element name="coloreSfondo" type="xs:string"/>
+      <xs:element name="numGiorniDefault" type="xs:integer"/>
+    </xs:sequence> 
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="infoDataBase">
+    <xs:complexType>
+    <xs:sequence>
+      <xs:element name="portaDBMS"     type="xs:string" />
+      <xs:element name="ipDBMS"    type="xs:string" />
+      <xs:element name="userDBMS"    type="xs:string" />
+      <xs:element name="passwordDBMS"    type="xs:string" />
+    </xs:sequence> 
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="infoServerLog">
+    <xs:complexType>
+    <xs:sequence>
+      <xs:element name="ipServerLog"     type="xs:string" />
+      <xs:element name="portaServerLog"    type="xs:integer" />
+    </xs:sequence> 
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

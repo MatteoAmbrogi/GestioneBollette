@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- conf.xml -->
+<Parametri>
+	<parametriStilistici>
+		<fornitura>
+			<String>Energia</String>
+			<String>Acqua</String>
+			<String>Gas</String>
+			<String>Telefono</String>
+			<String>Rifiuti</String>
+		</fornitura>
+		<font>Arial</font>
+		<dimensioneTesto>14</dimensioneTesto>
+		<coloreSfondo>beige</coloreSfondo>
+		<numGiorniDefault>30</numGiorniDefault>
+	</parametriStilistici>
+	<infoDataBase>
+		<portaDBMS>3306</portaDBMS>
+		<ipDBMS>localhost</ipDBMS>
+		<userDBMS>root</userDBMS>
+		<passwordDBMS></passwordDBMS>
+	</infoDataBase>
+	<infoServerLog>
+		<ipServerLog>localhost</ipServerLog>
+		<portaServerLog>8080</portaServerLog>
+	</infoServerLog>
+</Parametri>
