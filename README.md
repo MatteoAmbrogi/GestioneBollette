@@ -6,7 +6,7 @@ L’applicazione, realizzata in JavaFX, permette di gestire tutte le bollette di
 I principali obiettivi del progetto sono stati:
 * Creazione e studio di un’applicazione JavaFX con interfaccia grafica;
 * Realizzare una divisione in front-end, middleware e back-end tra le classi del progetto;
-* Salvare i dati in un database MySQL
+* Salvare i dati in un database MySQL;
 * Creare un server di log `LogDiNavigazione` per registrare le azioni effettuate dagli utenti nell’applicativo.
 
 ## Preview
